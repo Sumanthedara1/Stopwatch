@@ -4,6 +4,7 @@ body{
      overflow:scroll;
      background-repeat: no-repeat;
 }
+/* time section styling */
  #time{
      font-size: 50px;
      position: relative;
@@ -19,7 +20,7 @@ body{
      display: none;
 }
 
-
+/* cards with glassmorphism effect */
  .cards {
      position: absolute;
      margin:100px auto;
@@ -39,6 +40,8 @@ body{
      backdrop-filter: blur(10px);
      
 }
+
+/* lap div and sub divs code */
  #lheading{
      display: flex;
      justify-content: space-between;
@@ -56,13 +59,10 @@ body{
      left: 15%;
      margin: 15px 0px;
      position: relative;
+     display: none;
      width: 250px;
 }
  #border{
      border: 1px solid white;
      width: 250px;
 }
- #laps{
-     display: none;
-}
- 
