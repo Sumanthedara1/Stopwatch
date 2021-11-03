@@ -1,0 +1,68 @@
+body{
+     background: url(d1.jpg);
+     background-size: cover;
+     overflow:scroll;
+     background-repeat: no-repeat;
+}
+ #time{
+     font-size: 50px;
+     position: relative;
+     z-index: 2000;
+     opacity: 1;
+     color: white;
+     top: 20%;
+     display: flex;
+     left: 20%;
+     margin: auto;
+}
+.cards::-webkit-scrollbar {
+     display: none;
+}
+
+
+ .cards {
+     position: absolute;
+     margin:100px auto;
+     position: relative;
+     width: 370px;
+     height: auto;
+     overflow:scroll;
+     padding: 10px;
+     border-radius: 20px;
+     max-height: 600px;
+     color: #fff;
+     font-size: 18px;
+     background: rgba(255,255,255,0.1);
+     box-shadow: 10px 10px 20px -10px rgba(255, 255, 255, 0.2);
+     border-right: 1px solid rgba(255,255,255,0.2);
+     border-bottom: 1px solid rgba(255,255,255,0.2);
+     backdrop-filter: blur(10px);
+     
+}
+ #lheading{
+     display: flex;
+     justify-content: space-between;
+}
+ #ls{
+     display: flex;
+     justify-content: space-between;
+}
+ #buttons{
+     margin: auto;
+     left: 15%;
+     position: relative;
+}
+ #laps{
+     left: 15%;
+     margin: 15px 0px;
+     position: relative;
+     width: 250px;
+}
+ #border{
+     border: 1px solid white;
+     width: 250px;
+}
+ #laps{
+     display: none;
+}
+ 
