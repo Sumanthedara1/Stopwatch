@@ -1,6 +1,6 @@
 # Stopwatch
 
-###<caption>Simple Online stopwatch made with html,css and javascript along with laps feature </caption>
+####<caption>Simple Online stopwatch made with html,css and javascript along with laps feature </caption>
 <p><img src="https://im2.ezgif.com/tmp/ezgif-2-4733a1748070.gif" alt="gif" width="600" height="500"></p>
 
 
